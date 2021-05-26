@@ -1,0 +1,15 @@
+uuid: 6870ff07-9188-4fbb-ba46-a7e537cad6ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.mark_as_complete
+  module:
+    - flag
+id: flag_action.mark_as_complete_unflag
+label: 'This has not been fulfilled.'
+type: node
+plugin: 'flag_action:mark_as_complete_unflag'
+configuration:
+  flag_id: mark_as_complete
+  flag_action: unflag

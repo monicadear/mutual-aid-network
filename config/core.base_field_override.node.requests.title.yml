@@ -1,0 +1,18 @@
+uuid: cbe98450-8ac9-4c1a-bf29-bc1edf8d55e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.requests
+id: node.requests.title
+field_name: title
+entity_type: node
+bundle: requests
+label: 'Short description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

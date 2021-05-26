@@ -1,0 +1,21 @@
+uuid: c4b21112-b62c-41bd-bd72-d5dec596ca42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_about
+  module:
+    - text
+    - user
+id: user.user.field_about
+field_name: field_about
+entity_type: user
+bundle: user
+label: About
+description: 'Please write a bit about you in order to introduce yourself to the others in the community.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

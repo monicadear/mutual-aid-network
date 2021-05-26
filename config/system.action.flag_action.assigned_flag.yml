@@ -1,0 +1,15 @@
+uuid: 32ca9c48-7d08-4073-aeda-9e4cbee6ed4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.assigned
+  module:
+    - flag
+id: flag_action.assigned_flag
+label: 'I''ll take this'
+type: node
+plugin: 'flag_action:assigned_flag'
+configuration:
+  flag_id: assigned
+  flag_action: flag

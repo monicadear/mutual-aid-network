@@ -1,0 +1,15 @@
+uuid: c7887071-9a72-4a06-86d8-f17fe606a317
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.assigned
+  module:
+    - flag
+id: flag_action.assigned_unflag
+label: 'Remove from my list'
+type: node
+plugin: 'flag_action:assigned_unflag'
+configuration:
+  flag_id: assigned
+  flag_action: unflag

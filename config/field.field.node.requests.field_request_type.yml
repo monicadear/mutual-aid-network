@@ -1,0 +1,29 @@
+uuid: 54e5447a-a508-4d16-97aa-0af4cf795c10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_request_type
+    - node.type.requests
+    - taxonomy.vocabulary.request_types
+id: node.requests.field_request_type
+field_name: field_request_type
+entity_type: node
+bundle: requests
+label: 'Request Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      request_types: request_types
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,38 @@
+uuid: 52344765-e2bd-45c6-aef4-86ed77177efa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: mark_as_complete
+label: 'Mark as complete'
+bundles:
+  - requests
+entity_type: node
+global: true
+weight: 0
+flag_short: 'This request is completed/fulfilled'
+flag_long: 'Mark this request as being fulfilled'
+flag_message: 'This request is now fulfilled. Thank you!'
+unflag_short: 'Whoops! This request has not yet been fulfilled.'
+unflag_long: 'This request has not yet been fulfilled, it will be returned to the list of open requests'
+unflag_message: 'This request is still open and in the queue.'
+unflag_denied_text: ''
+flag_type: 'entity:node'
+link_type: confirm
+flagTypeConfig:
+  show_in_links:
+    full: full
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig:
+  flag_confirmation: 'Has this request been finalized?'
+  unflag_confirmation: 'Whoops! Mark this request as still open/available'
+  flag_create_button: 'Yes, this request has been fulfilled'
+  flag_delete_button: 'Whoops! This still needs to be fulfilled'
+  form_behavior: default
+  edit_flagging: 'Please enter the details of how this request was fulfilled'
+  flag_update_button: 'This has been updated.'

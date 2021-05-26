@@ -1,0 +1,23 @@
+uuid: f13ef8f9-14c7-4a3f-9c4a-c256286c7d9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weblink
+    - node.type.requests
+  module:
+    - link
+id: node.requests.field_weblink
+field_name: field_weblink
+entity_type: node
+bundle: requests
+label: Weblink
+description: 'Add your website link such as a payment link or another informational link'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

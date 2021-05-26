@@ -1,0 +1,38 @@
+uuid: ff8aee32-cd59-4fce-b846-194fc703f445
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b24236f7-1200-449f-8d63-a81f523ad5d8'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - olivero
+id: whocanparticipate
+theme: olivero
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:b24236f7-1200-449f-8d63-a81f523ad5d8'
+settings:
+  id: 'block_content:b24236f7-1200-449f-8d63-a81f523ad5d8'
+  label: 'Who can participate'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /all-requests
+    negate: false
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

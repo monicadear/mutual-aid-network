@@ -1,0 +1,8 @@
+uuid: 159f8829-e9d9-4694-bb79-6ca509c8b4a0
+langcode: en
+status: true
+dependencies: {  }
+name: Cities
+vid: location
+description: 'Choose from these available cities'
+weight: 0

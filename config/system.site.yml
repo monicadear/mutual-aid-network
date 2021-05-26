@@ -1,0 +1,15 @@
+uuid: 925bde6d-e69b-4059-be23-d9b53bee7d41
+name: 'Community Tech: Mutual Aid Network'
+mail: monicasflores1@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''

@@ -1,0 +1,39 @@
+uuid: 0064877c-bd97-4e6e-a610-2ad1b75c2057
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access in-place editing'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'cancel account'
+  - 'change own username'
+  - 'create requests content'
+  - 'delete own requests content'
+  - 'flag assigned'
+  - 'flag bookmark'
+  - 'flag mark_as_complete'
+  - 'flag mark_as_complete other items'
+  - 'flag mark_as_complete own items'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'unflag assigned'
+  - 'unflag bookmark'
+  - 'unflag mark_as_complete'
+  - 'unflag mark_as_complete other items'
+  - 'unflag mark_as_complete own items'
+  - 'use text format basic_html'
+  - 'use text format restricted_html'
+  - 'view own unpublished content'

@@ -1,0 +1,15 @@
+uuid: 7d4ecf17-7305-4717-b4b9-712752fbee7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.mark_as_complete
+  module:
+    - flag
+id: flag_action.mark_as_complete_flag
+label: 'Mark this item as fulfilled'
+type: node
+plugin: 'flag_action:mark_as_complete_flag'
+configuration:
+  flag_id: mark_as_complete
+  flag_action: flag

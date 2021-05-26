@@ -1,0 +1,53 @@
+uuid: b864cd0e-b948-4a70-bb8f-e2d6eaf7362e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.requests.body
+    - field.field.node.requests.field_comments
+    - field.field.node.requests.field_location
+    - field.field.node.requests.field_request_type
+    - field.field.node.requests.field_weblink
+    - node.type.requests
+  module:
+    - text
+    - user
+id: node.requests.teaser
+targetEntityType: node
+bundle: requests
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  flag_assigned:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  flag_bookmark:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  flag_mark_as_complete:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_comments: true
+  field_location: true
+  field_request_type: true
+  field_weblink: true

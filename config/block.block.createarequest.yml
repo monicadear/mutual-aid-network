@@ -1,0 +1,38 @@
+uuid: e6ae44eb-0c39-477e-a190-d655000d9356
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:42782089-5b88-4354-8a4e-a0b0e09562aa'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - olivero
+id: createarequest
+theme: olivero
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:42782089-5b88-4354-8a4e-a0b0e09562aa'
+settings:
+  id: 'block_content:42782089-5b88-4354-8a4e-a0b0e09562aa'
+  label: 'Create a request'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /all-requests
+    negate: false
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
