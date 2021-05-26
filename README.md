@@ -1,9 +1,14 @@
 # This is a prototype Mutual Aid Network tool
 There is a content type to allow for Requests from users.
+
 Users may then log in and either submit a new request, or, they may bookmark, assign, or mark as completed an existing request.
+
 Created through FutureHack2021 as part of the Hack for Good division, for FutureStack.com, the annual New Relic conference.
+
 Built from 2021.05.26 through 2021.05.25 on Drupal content management system, on the Pantheon hosting platform, using the Olivero theme for the front-end as well as the Claro theme for the administration interface, using New Relic.
+
 Teammates: monicadear and gieshanunez.
+
 There is a domain name communitytech.co that now forwards to the Pantheon hosting environment with this tool in place.
 
 Video of Slides: https://www.youtube.com/watch?v=v-MxQ0VVvNM&list=PLs17PaWmyGrWOlt1A1XNuXNJPuuNI0s2Y&index=17
