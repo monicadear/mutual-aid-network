@@ -1,3 +1,8 @@
+# This is a prototype Mutul Aid Newtwork tool
+There is a content type to allow for Requests from users.
+Users may then log in and either submit a new request, or, they may bookmark, assign, or mark as completed an existing request.
+Created through FutureHack2021 as part of the Hack for Good division, for FutureStack.com, the annual New Relic conference.
+
 # Composer-enabled Drupal template
 
 This is Pantheon's recommended starting point for forking new [Drupal](https://www.drupal.org/) upstreams
