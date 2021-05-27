@@ -5,7 +5,7 @@ Users may then log in and either submit a new request, or, they may bookmark, as
 
 Created through FutureHack2021 as part of the Hack for Good division, for FutureStack.com, the annual New Relic conference.
 
-Built from 2021.05.26 through 2021.05.25 on Drupal content management system, on the Pantheon hosting platform, using the Olivero theme for the front-end as well as the Claro theme for the administration interface, using New Relic.
+Built from 2021.05.25 through 2021.05.26 on Drupal content management system, on the Pantheon hosting platform, using the Olivero theme for the front-end as well as the Claro theme for the administration interface, using New Relic.
 
 Teammates: monicadear and gieshanunez.
 
